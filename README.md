@@ -9,3 +9,5 @@ This is the first web application to get started with MERN (MongoDB, Express.js,
 [debug](https://www.npmjs.com/package/debug) - A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers.
 
 [chalk](https://www.npmjs.com/package/chalk) - Terminal string styling done right
+
+[nodemon](https://www.npmjs.com/package/nodemon) - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
