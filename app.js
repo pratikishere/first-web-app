@@ -13,7 +13,7 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.render('index', {title: 'first web app'});
+    res.render('index', {title: 'first web app', data: ['a', 'b', 'c']});
 })
 
 app.listen(PORT, () => {
