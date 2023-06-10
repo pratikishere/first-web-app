@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
     res.send('Hello from my app');
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     log(`listening on port ${chalk.green(PORT)}`);
 })
